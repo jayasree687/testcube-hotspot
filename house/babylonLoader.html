@@ -1,16 +1,16 @@
 <!-- 
 /*!
  * 3D Roam Demo 
- * Johnny Xu(徐景周) - v1.0.0 (2017-08-30)
+ * Johnny Xu(脨矛戮掳脰脺) - v1.0.0 (2017-08-30)
  * https://github.com/xujingzhou | Released under MIT license
  */
 -->
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>模型展示</title>
+    <title>脛拢脨脥脮鹿脢戮</title>
 	
-	<script src="js/hand.js"></script>
+	<script src="js/hand-1.3.7.js"></script>
     <script src="js/babylon.custom.js"></script>
     <style>
         html, body {
@@ -42,7 +42,7 @@
 		var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0.8, 10, new BABYLON.Vector3(0, 0, 0), scene);
 		camera.setPosition(new BABYLON.Vector3(-500, -1000, -1000));
 
-		BABYLON.SceneLoader.ImportMesh("", "model/", "1.obj", scene, function(newMeshes, particleSystems) {
+		BABYLON.SceneLoader.ImportMesh("", "model/", "11.obj", scene, function(newMeshes, particleSystems) {
 
 			camera.target = newMeshes[0];
 		});
